@@ -1,0 +1,103 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f26db1;
+  padding: 1rem 2rem;
+  color: white;
+}
+.navbar ul {
+  display: flex;
+  gap: 1rem;
+}
+.navbar .enroll {
+  background-color: #00d1ff;
+  border: none;
+  padding: 0.5rem 1rem;
+  color: white;
+  border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+  background: url('hero-image.jpg') no-repeat center center/cover;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+.hero-content {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 2rem;
+  /* padding-top: 200px; */
+  border-radius: 10px;
+  margin-top: 450px;
+  margin-right: 770px;
+  background-color: #ff0090; /* Button background color */
+  color: #fff; /* Text color */
+  border: none; /* Remove default border */
+  border-radius: 50px; /* Make the button oval */
+  padding: 10px 20px; /* Adjust size */
+  font-size: 16px; /* Adjust text size */
+  font-family: 'Arial', sans-serif; /* Font family */
+  font-weight: bold; /* Bold text */
+  cursor: pointer; /* Pointer on hover */
+  transition: all 0.3s ease;
+}
+.hero-content h1 {
+  color: #363cbe;
+}
+
+/* Features Section */
+.features {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: #f9f9f9;
+}
+.feature-items {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.feature {
+  background: white;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 200px;
+}
+
+/* Footer */
+.footer {
+  background: #363cbe;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.footer-content ul {
+  text-align: left;
+}
